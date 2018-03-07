@@ -21,7 +21,7 @@ export default class App extends React.Component {
 	  	title={ item.text }
 		image={ { uri: item.uri } }
 	  >
-		<Text style={{ marginBottom: 10 }}>
+		<Text style={{ marginBottom: 20 }}>
 			I can customize the Crad further.
 		</Text>
 		<Button
