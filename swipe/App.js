@@ -37,7 +37,8 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Deck 
           	data={ DATA } 
-          	renderCard={ this.renderCard } />
+          	renderCard={ this.renderCard } 
+            />
       </View>
     );
   }
